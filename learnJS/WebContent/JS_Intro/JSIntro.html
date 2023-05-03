@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="firstJS">
+	<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+</div>
+
+<!-- 자바스크립트로 할 수 있는 몇몇의 예제. -->
+<div>
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript 는 HTML Contents 를 변경 할 수 있어요.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+</div>
+<hr>
+<!-- Java Script 는 더블쿼트, 싱글쿼트를 모두 사용합니다(단, 열고 닫을때는 꼭 세트로) -->
+
+<!-- 자바 스크립트는 또한 HTML 의 속성 값도 변경 할 수 있어요. img tag 의 src 속성 변경 하기..하위 예제-->
+
+<div>
+	<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Light On</button>
+	
+	<img id="myImage" src="pic_bulboff.gif" style="width: 100px">
+	
+	<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Light Off</button>
+</div>
+
+</body>
+</html>
